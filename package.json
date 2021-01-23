@@ -1,0 +1,17 @@
+{
+  "name": "netlify-plugin-js-obfuscator",
+  "version": "1.0.0",
+  "description": "JavaScript Obfuscator for your sites hosted on netlify, which provide protection for your source code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anish Roy",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-javascript-obfuscator": "^1.1.6",
+    "readdirp": "^3.5.0",
+    "vinyl-sourcemaps-apply": "^0.2.1"
+  }
+}
