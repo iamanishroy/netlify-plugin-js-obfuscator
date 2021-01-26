@@ -1,8 +1,6 @@
 # netlify-plugin-js-obfuscator
 
-A Netlify Build plugin to extract and obfuscate your JavaScript Source Code, which provide protection for your source code [JS Obfuscator](https://github.com/iamanishroy/netlify-plugin-js-obfuscator), built on top of the [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator). It extracts the CSS for above-the-fold content and inlines it into the HTML document in order to render content to the user as fast as possible.
-
-JS Obfuscator is a powerful free obfuscator for JavaScript, containing a variety of features which provide protection for your source code.
+A Netlify Build plugin to extract and obfuscate your JavaScript Source Code, which provide protection for your source code [JS Obfuscator](https://github.com/iamanishroy/netlify-plugin-js-obfuscator), built on top of the [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator). JavaScript Obfuscator is a powerful free obfuscator for JavaScript, containing a variety of features which provide protection for your source code.
 
 **Key features:**
 - variables renaming
@@ -25,18 +23,18 @@ For file-based installation, add it to your `netlify.toml` file.
 
   # All inputs are optional, so you can omit this section.
   # Defaults are shown below.
-  # You can also refer to `critical`’s documentation: https://github.com/addyosmani/critical.
+  # You can also refer to `javascript-obfuscator`’s documentation: https://github.com/javascript-obfuscator/javascript-obfuscator.
   [plugins.inputs]
    # Compact code output on one line.
-    compact : false
+   compact : false
    # Enables numbers conversion to expressions
-    numbersToExpressions : true
+   numbersToExpressions : true
    # Enables additional code obfuscation through simplification.
-    simplify : true
+   simplify : true
    # Randomly shuffles the stringArray array items
-    shuffleStringArray : true
+   shuffleStringArray : true
    # Splits literal strings into chunks with length of splitStringsChunkLength option value
-    splitStrings : true
+   splitStrings : true
 ```
 
 To complete file-based installation, from your project's base directory, use npm, yarn, or any other Node.js package manager to add the plugin to `devDependencies` in `package.json`.
