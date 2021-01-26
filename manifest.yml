@@ -2,17 +2,17 @@ name: netlify-plugin-js-obfuscator
 
 inputs:
   -name:  compact
-  description: Compact code output on one line.
-  default: false
+    description: Compact code output on one line.
+    default: false
   -name: numbersToExpressions
-  description: Enables numbers conversion to expressions
-  default: true
+    description: Enables numbers conversion to expressions
+    default: true
   -name: simplify
-  description: Enables additional code obfuscation through simplification.
-  default: true
+    description: Enables additional code obfuscation through simplification.
+    default: true
   -name: shuffleStringArray
-  description: Randomly shuffles the stringArray array items
-  default: true
+    description: Randomly shuffles the stringArray array items
+    default: true
   -name: splitStrings
-  description: Splits literal strings into chunks with length of splitStringsChunkLength option value
-  default: true
+    description: Splits literal strings into chunks with length of splitStringsChunkLength option value
+    default: true
