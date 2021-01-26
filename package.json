@@ -6,12 +6,25 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Anish Roy",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamanishroy/plugin-test.git"
+  },
+  "keywords": [
+    "netlify",
+    "JavaScript",
+    "JS",
+    "obfuscator",
+    "plugin"
+  ],
+  "author": "",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamanishroy/plugin-test/issues"
+  },
+  "homepage": "https://github.com/iamanishroy/plugin-test#readme",
   "dependencies": {
-    "gulp": "^4.0.2",
-    "gulp-javascript-obfuscator": "^1.1.6",
     "readdirp": "^3.5.0",
-    "vinyl-sourcemaps-apply": "^0.2.1"
+    "javascript-obfuscator": "^2.10.3"
   }
 }
