@@ -1,4 +1,4 @@
-# netlify-plugin-inline-critical-css
+# netlify-plugin-js-obfuscator
 
 A Netlify Build plugin to extract and obfuscate your JavaScript Source Code, which provide protection for your source code [JS Obfuscator](https://github.com/iamanishroy/netlify-plugin-js-obfuscator), built on top of the [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator). It extracts the CSS for above-the-fold content and inlines it into the HTML document in order to render content to the user as fast as possible.
 
