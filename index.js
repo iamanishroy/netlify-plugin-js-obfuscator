@@ -1,6 +1,8 @@
-const readdirp = require("readdirp");
-const fs = require("fs");
-var JavaScriptObfuscator = require("javascript-obfuscator");
+const fs = require("fs"); 
+const readdirp = require("readdirp"); 
+var JavaScriptObfuscator = require("javascript-obfuscator"); 
+
+// listing all the '.js' files 
 const getJsFiles = async (directory, func_dir) => {
   const files = await readdirp.promise(directory, {
     fileFilter: "*.js",
@@ -8,6 +10,8 @@ const getJsFiles = async (directory, func_dir) => {
   });
   return files.map((file) => file.fullPath);
 };
+
+// Reading the files -> obfuscating the code -> Writing the obfuscated code
 const obfuscateCode = async (filePath, custom) => {
   var file = fs.readFileSync(filePath, "utf8");
   var obfuscationResult = await JavaScriptObfuscator.obfuscate(file, {
