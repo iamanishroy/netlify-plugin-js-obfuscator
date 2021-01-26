@@ -30,7 +30,7 @@ For file-based installation, add it to your `netlify.toml` file.
    # Enables numbers conversion to expressions
      numbersToExpressions: true
    # Enables additional code obfuscation through simplification.
-   simplify : true
+     simplify : true
    # Randomly shuffles the stringArray array items
      shuffleStringArray: true
    # Splits literal strings into chunks with length of splitStringsChunkLength option value
