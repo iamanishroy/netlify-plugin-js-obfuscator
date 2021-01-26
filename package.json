@@ -1,6 +1,6 @@
 {
   "name": "netlify-plugin-js-obfuscator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "JavaScript Obfuscator for your sites hosted on netlify, which provide protection for your source code.",
   "main": "index.js",
   "scripts": {
