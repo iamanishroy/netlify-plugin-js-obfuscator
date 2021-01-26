@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamanishroy/plugin-test.git"
+    "url": "git+https://github.com/iamanishroy/netlify-plugin-js-obfuscator.git"
   },
   "keywords": [
     "netlify",
@@ -20,9 +20,9 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iamanishroy/plugin-test/issues"
+    "url": "https://github.com/iamanishroy/netlify-plugin-js-obfuscator/issues"
   },
-  "homepage": "https://github.com/iamanishroy/plugin-test#readme",
+  "homepage": "https://github.com/iamanishroy/netlify-plugin-js-obfuscator#readme",
   "dependencies": {
     "readdirp": "^3.5.0",
     "javascript-obfuscator": "^2.10.3"
