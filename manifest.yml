@@ -1,6 +1,7 @@
 name: netlify-plugin-js-obfuscator
+
 inputs:
-  -name: compact
+  -name:  compact
   description: Compact code output on one line.
   default: false
   -name: numbersToExpressions
