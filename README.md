@@ -37,7 +37,7 @@ For file-based installation, add it to your `netlify.toml` file.
      splitStrings: true
 ```
 
-To complete file-based installation, from your project's base directory, use npm, yarn, or any other Node.js package manager to add the plugin to `devDependencies` in `package.json`.
+To complete file-based installation, from your project's base directory, use npm package manager to add the plugin to `devDependencies` in `package.json`.
 
 ```bash
 npm install -D netlify-plugin-js-obfuscator

@@ -1,0 +1,4 @@
+[[plugins]]
+package = 'netlify-plugin-js-obfuscator'
+    [plugins.inputs]
+    compact = true
