@@ -1,6 +1,7 @@
 # netlify-plugin-js-obfuscator
 
-A Netlify Build plugin to extract and obfuscate your JavaScript Source Code, which provide protection for your source code [JS Obfuscator](https://github.com/iamanishroy/netlify-plugin-js-obfuscator), built on top of the [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator). JavaScript Obfuscator is a powerful free obfuscator for JavaScript, containing a variety of features which provide protection for your source code.
+A Netlify Build plugin to extract and obfuscate your JavaScript Source Code, which provide protection for your source code. [JS Obfuscator](https://github.com/iamanishroy/netlify-plugin-js-obfuscator), built on top of the [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator). 
+JavaScript Obfuscator is a powerful free obfuscator for JavaScript, containing a variety of features which provide protection for your source code.
 
 **Key features:**
 
