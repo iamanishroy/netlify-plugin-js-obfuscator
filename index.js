@@ -4,7 +4,7 @@ const readFile = util.promisify(fs.readFile);
 const writeFile = util.promisify(fs.writeFile);
 const readdirp = require("readdirp");
 const JavaScriptObfuscator = require("javascript-obfuscator");
-const excludedDir = ["!node_modules", "!plugins"];
+var excludedDir = ["!node_modules", "!plugins"];
 
 // listing all the '.js' files
 const getJsFiles = async (directory, func_dir) => {
