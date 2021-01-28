@@ -1,5 +1,4 @@
 name: netlify-plugin-js-obfuscator
-<<<<<<< HEAD
 
 inputs:
   - name: compact
@@ -17,5 +16,3 @@ inputs:
   - name: splitStrings
     description: Splits literal strings into chunks with length of splitStringsChunkLength option value
     default: true
-=======
->>>>>>> ca7d29c28849b0066756dc0e6f43c2dae1a3ca6b
