@@ -11,7 +11,6 @@ const getJsFiles = async (directory, func_dir) => {
   if (func_dir) {
     excludedDir.push(`!${func_dir}`);
   }
-  console.log(excludedDir);
   const files = await readdirp.promise(directory, {
     fileFilter: "*.js",
     directoryFilter: excludedDir,
