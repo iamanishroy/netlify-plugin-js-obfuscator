@@ -32,15 +32,15 @@ For file-based installation, add it to your `netlify.toml` file.
   # You can also refer to `javascript-obfuscator`’s documentation: https://github.com/javascript-obfuscator/javascript-obfuscator.
   [plugins.inputs]
    # Compact code output on one line.
-     compact: false
+     compact = false
    # Enables numbers conversion to expressions
-     numbersToExpressions: true
+     numbersToExpressions = true
    # Enables additional code obfuscation through simplification.
-     simplify: true
+     simplify = true
    # Randomly shuffles the stringArray array items
-     shuffleStringArray: true
+     shuffleStringArray = true
    # Splits literal strings into chunks with length of splitStringsChunkLength option value
-     splitStrings: true
+     splitStrings = true
 ```
 
 To complete file-based installation, from your project's base directory, use npm package manager to add the plugin to `devDependencies` in `package.json`.
